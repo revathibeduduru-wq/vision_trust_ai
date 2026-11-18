@@ -1,0 +1,673 @@
+{
+  "dataset_manifest": {
+    "dataset_id": "DS-SAMPLE_DATAS-fa21d37e",
+    "dataset_name": "sample_dataset",
+    "detected_format": "FOLDER",
+    "root_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset",
+    "total_samples": 11,
+    "samples": [
+      {
+        "sample_id": "SMPL-00001",
+        "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_01.jpg",
+        "label": "images",
+        "metadata": {
+          "relative_path": "images\\sample_01.jpg"
+        }
+      },
+      {
+        "sample_id": "SMPL-00002",
+        "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_01_copy.jpg",
+        "label": "images",
+        "metadata": {
+          "relative_path": "images\\sample_01_copy.jpg"
+        }
+      },
+      {
+        "sample_id": "SMPL-00003",
+        "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_02.jpg",
+        "label": "images",
+        "metadata": {
+          "relative_path": "images\\sample_02.jpg"
+        }
+      },
+      {
+        "sample_id": "SMPL-00004",
+        "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_02_near_dup.jpg",
+        "label": "images",
+        "metadata": {
+          "relative_path": "images\\sample_02_near_dup.jpg"
+        }
+      },
+      {
+        "sample_id": "SMPL-00005",
+        "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_03.jpg",
+        "label": "images",
+        "metadata": {
+          "relative_path": "images\\sample_03.jpg"
+        }
+      },
+      {
+        "sample_id": "SMPL-00006",
+        "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_04.jpg",
+        "label": "images",
+        "metadata": {
+          "relative_path": "images\\sample_04.jpg"
+        }
+      },
+      {
+        "sample_id": "SMPL-00007",
+        "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_05.jpg",
+        "label": "images",
+        "metadata": {
+          "relative_path": "images\\sample_05.jpg"
+        }
+      },
+      {
+        "sample_id": "SMPL-00008",
+        "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_06.jpg",
+        "label": "images",
+        "metadata": {
+          "relative_path": "images\\sample_06.jpg"
+        }
+      },
+      {
+        "sample_id": "SMPL-00009",
+        "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_07.jpg",
+        "label": "images",
+        "metadata": {
+          "relative_path": "images\\sample_07.jpg"
+        }
+      },
+      {
+        "sample_id": "SMPL-00010",
+        "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_08.jpg",
+        "label": "images",
+        "metadata": {
+          "relative_path": "images\\sample_08.jpg"
+        }
+      },
+      {
+        "sample_id": "SMPL-00011",
+        "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_corrupted.jpg",
+        "label": "images",
+        "metadata": {
+          "relative_path": "images\\sample_corrupted.jpg"
+        }
+      }
+    ],
+    "classes": [
+      "images"
+    ],
+    "manifest_hash": "fa21d37e3bb56495b3620a4bc750d74bbc2187a4c83e15988909498aa6141496"
+  },
+  "quality_overview": {
+    "total_samples": 11,
+    "valid_images": 10,
+    "corrupted_images": 1,
+    "mean_brightness": 204.0,
+    "mean_contrast": 59.61,
+    "mean_blur_score": 5375.85,
+    "duplicate_clusters_count": 1,
+    "duplicate_samples_count": 9,
+    "ood_anomalies_count": 1,
+    "label_inconsistencies_count": 0,
+    "integrity_status": "CRITICAL_ANOMALIES"
+  },
+  "image_results": [
+    {
+      "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_01.jpg",
+      "file_name": "sample_01.jpg",
+      "sha256": "5c686192bc1db3961e781939e0e3515b4b05b292b9abbc4936e199cb79cdbcb0",
+      "perceptual_hashes": {
+        "phash": "e1df9678186561c6",
+        "dhash": "324c8e3333964c32",
+        "ahash": "ffe7c38181c3e7ff",
+        "whash": "ffc381818181c3ff"
+      },
+      "width": 120,
+      "height": 120,
+      "aspect_ratio": 1.0,
+      "file_size_bytes": 1978,
+      "format": "JPEG",
+      "brightness": 200.14,
+      "contrast": 65.75,
+      "blur_score": 5467.83,
+      "is_corrupted": false,
+      "corruption_reason": null
+    },
+    {
+      "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_01_copy.jpg",
+      "file_name": "sample_01_copy.jpg",
+      "sha256": "5c686192bc1db3961e781939e0e3515b4b05b292b9abbc4936e199cb79cdbcb0",
+      "perceptual_hashes": {
+        "phash": "e1df9678186561c6",
+        "dhash": "324c8e3333964c32",
+        "ahash": "ffe7c38181c3e7ff",
+        "whash": "ffc381818181c3ff"
+      },
+      "width": 120,
+      "height": 120,
+      "aspect_ratio": 1.0,
+      "file_size_bytes": 1978,
+      "format": "JPEG",
+      "brightness": 200.14,
+      "contrast": 65.75,
+      "blur_score": 5467.83,
+      "is_corrupted": false,
+      "corruption_reason": null
+    },
+    {
+      "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_02.jpg",
+      "file_name": "sample_02.jpg",
+      "sha256": "044faef15ff9f3b9a75fcbf07e84177ba989df1fe3b4dc03448cd9b439dc7c70",
+      "perceptual_hashes": {
+        "phash": "e1df9678186561c6",
+        "dhash": "324c863333964c32",
+        "ahash": "ffe7c38181c3e7ff",
+        "whash": "ffc381818181c3ff"
+      },
+      "width": 120,
+      "height": 120,
+      "aspect_ratio": 1.0,
+      "file_size_bytes": 1933,
+      "format": "JPEG",
+      "brightness": 201.42,
+      "contrast": 63.83,
+      "blur_score": 5726.59,
+      "is_corrupted": false,
+      "corruption_reason": null
+    },
+    {
+      "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_02_near_dup.jpg",
+      "file_name": "sample_02_near_dup.jpg",
+      "sha256": "0ece1e2e2502f65c083a1f74380361d91f7f938f8331bdde5df39c05f56885c0",
+      "perceptual_hashes": {
+        "phash": "e1cf9678586561c6",
+        "dhash": "324c863333864c32",
+        "ahash": "ffe7c38181c3e7ff",
+        "whash": "ffc381818181c3ff"
+      },
+      "width": 120,
+      "height": 120,
+      "aspect_ratio": 1.0,
+      "file_size_bytes": 1686,
+      "format": "JPEG",
+      "brightness": 201.34,
+      "contrast": 60.65,
+      "blur_score": 94.51,
+      "is_corrupted": false,
+      "corruption_reason": null
+    },
+    {
+      "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_03.jpg",
+      "file_name": "sample_03.jpg",
+      "sha256": "9db5a4fbc8ca1c26226dfc5d4c21a78827802bec0c878ec7806ef6aef6230396",
+      "perceptual_hashes": {
+        "phash": "e1d79678586561c6",
+        "dhash": "324c863333964c32",
+        "ahash": "ffe7c38181c3e7ff",
+        "whash": "ffc381818181c3ff"
+      },
+      "width": 120,
+      "height": 120,
+      "aspect_ratio": 1.0,
+      "file_size_bytes": 1873,
+      "format": "JPEG",
+      "brightness": 202.71,
+      "contrast": 61.89,
+      "blur_score": 5964.83,
+      "is_corrupted": false,
+      "corruption_reason": null
+    },
+    {
+      "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_04.jpg",
+      "file_name": "sample_04.jpg",
+      "sha256": "514255eddbed0ce3373b1211b9ffaa0a08a4b1dadf04c5871bee305917b8b268",
+      "perceptual_hashes": {
+        "phash": "e1d79678187561c6",
+        "dhash": "324c863333964c32",
+        "ahash": "ffe7c38181c3e7ff",
+        "whash": "ffc381818181c3ff"
+      },
+      "width": 120,
+      "height": 120,
+      "aspect_ratio": 1.0,
+      "file_size_bytes": 1851,
+      "format": "JPEG",
+      "brightness": 204.02,
+      "contrast": 59.92,
+      "blur_score": 6130.71,
+      "is_corrupted": false,
+      "corruption_reason": null
+    },
+    {
+      "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_05.jpg",
+      "file_name": "sample_05.jpg",
+      "sha256": "c5ec0214321cb55d4c7bd636992318f51c6202d96792af7013024354756338f0",
+      "perceptual_hashes": {
+        "phash": "e1cf9678186561c7",
+        "dhash": "324c863333964c32",
+        "ahash": "ffe7c38181c3e7ff",
+        "whash": "ffc381818181c3ff"
+      },
+      "width": 120,
+      "height": 120,
+      "aspect_ratio": 1.0,
+      "file_size_bytes": 1851,
+      "format": "JPEG",
+      "brightness": 205.6,
+      "contrast": 57.54,
+      "blur_score": 6211.6,
+      "is_corrupted": false,
+      "corruption_reason": null
+    },
+    {
+      "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_06.jpg",
+      "file_name": "sample_06.jpg",
+      "sha256": "42b3cd895764fd1f64d02c3cef5a1aa02f93df0a8807c58e7c4a33dd332e04a8",
+      "perceptual_hashes": {
+        "phash": "e1d79678186561c7",
+        "dhash": "324c863333964c32",
+        "ahash": "ffe7c38181c3e7ff",
+        "whash": "ffc381818181c3ff"
+      },
+      "width": 120,
+      "height": 120,
+      "aspect_ratio": 1.0,
+      "file_size_bytes": 1845,
+      "format": "JPEG",
+      "brightness": 206.9,
+      "contrast": 55.56,
+      "blur_score": 6220.14,
+      "is_corrupted": false,
+      "corruption_reason": null
+    },
+    {
+      "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_07.jpg",
+      "file_name": "sample_07.jpg",
+      "sha256": "5d3a2a2733b2565dc772bf39920385746180fca3ab8231248095407850fe4b03",
+      "perceptual_hashes": {
+        "phash": "e1d79678186561c7",
+        "dhash": "324c863333964c32",
+        "ahash": "ffe7c38181c3e7ff",
+        "whash": "ffc381818181c3ff"
+      },
+      "width": 120,
+      "height": 120,
+      "aspect_ratio": 1.0,
+      "file_size_bytes": 1910,
+      "format": "JPEG",
+      "brightness": 208.22,
+      "contrast": 53.57,
+      "blur_score": 6210.95,
+      "is_corrupted": false,
+      "corruption_reason": null
+    },
+    {
+      "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_08.jpg",
+      "file_name": "sample_08.jpg",
+      "sha256": "392f8a1507c0c0128a0b6a5e7f7bd92331b6601188ed4ac84e811041a2702d3b",
+      "perceptual_hashes": {
+        "phash": "e1d79678186561c7",
+        "dhash": "324c863333964c32",
+        "ahash": "ffe7c38181c3e7ff",
+        "whash": "ffc381818181c3ff"
+      },
+      "width": 120,
+      "height": 120,
+      "aspect_ratio": 1.0,
+      "file_size_bytes": 1954,
+      "format": "JPEG",
+      "brightness": 209.54,
+      "contrast": 51.6,
+      "blur_score": 6263.47,
+      "is_corrupted": false,
+      "corruption_reason": null
+    },
+    {
+      "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_corrupted.jpg",
+      "file_name": "sample_corrupted.jpg",
+      "sha256": "fff60db62dd23805c0399217c484481e4b314dce0d04ccebe2596774e3441a69",
+      "perceptual_hashes": null,
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0.0,
+      "file_size_bytes": 33,
+      "format": "CORRUPTED",
+      "brightness": 0.0,
+      "contrast": 0.0,
+      "blur_score": 0.0,
+      "is_corrupted": true,
+      "corruption_reason": "Corrupted or unsupported image file: UnidentifiedImageError: cannot identify image file 'C:\\\\Users\\\\LENOVO\\\\OneDrive\\\\Documents\\\\Desktop\\\\vision trust 3\\\\data\\\\demo\\\\sample_dataset\\\\images\\\\sample_corrupted.jpg'"
+    }
+  ],
+  "duplicate_analysis": {
+    "clusters": [
+      {
+        "cluster_id": "DUP-CLUSTER-001",
+        "representative_image": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_08.jpg",
+        "duplicates": [
+          {
+            "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_08.jpg",
+            "sha256": "392f8a1507c0c0128a0b6a5e7f7bd92331b6601188ed4ac84e811041a2702d3b",
+            "similarity": 100.0,
+            "duplicate_type": "EXACT",
+            "hamming_distance": 0
+          },
+          {
+            "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_06.jpg",
+            "sha256": "42b3cd895764fd1f64d02c3cef5a1aa02f93df0a8807c58e7c4a33dd332e04a8",
+            "similarity": 100.0,
+            "duplicate_type": "NEAR_DUPLICATE",
+            "hamming_distance": 0
+          },
+          {
+            "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_05.jpg",
+            "sha256": "c5ec0214321cb55d4c7bd636992318f51c6202d96792af7013024354756338f0",
+            "similarity": 96.88,
+            "duplicate_type": "NEAR_DUPLICATE",
+            "hamming_distance": 2
+          },
+          {
+            "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_07.jpg",
+            "sha256": "5d3a2a2733b2565dc772bf39920385746180fca3ab8231248095407850fe4b03",
+            "similarity": 100.0,
+            "duplicate_type": "NEAR_DUPLICATE",
+            "hamming_distance": 0
+          },
+          {
+            "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_04.jpg",
+            "sha256": "514255eddbed0ce3373b1211b9ffaa0a08a4b1dadf04c5871bee305917b8b268",
+            "similarity": 96.88,
+            "duplicate_type": "NEAR_DUPLICATE",
+            "hamming_distance": 2
+          },
+          {
+            "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_03.jpg",
+            "sha256": "9db5a4fbc8ca1c26226dfc5d4c21a78827802bec0c878ec7806ef6aef6230396",
+            "similarity": 96.88,
+            "duplicate_type": "NEAR_DUPLICATE",
+            "hamming_distance": 2
+          },
+          {
+            "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_02.jpg",
+            "sha256": "044faef15ff9f3b9a75fcbf07e84177ba989df1fe3b4dc03448cd9b439dc7c70",
+            "similarity": 96.88,
+            "duplicate_type": "NEAR_DUPLICATE",
+            "hamming_distance": 2
+          },
+          {
+            "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_01.jpg",
+            "sha256": "5c686192bc1db3961e781939e0e3515b4b05b292b9abbc4936e199cb79cdbcb0",
+            "similarity": 96.88,
+            "duplicate_type": "NEAR_DUPLICATE",
+            "hamming_distance": 2
+          },
+          {
+            "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_01_copy.jpg",
+            "sha256": "5c686192bc1db3961e781939e0e3515b4b05b292b9abbc4936e199cb79cdbcb0",
+            "similarity": 96.88,
+            "duplicate_type": "NEAR_DUPLICATE",
+            "hamming_distance": 2
+          },
+          {
+            "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_02_near_dup.jpg",
+            "sha256": "0ece1e2e2502f65c083a1f74380361d91f7f938f8331bdde5df39c05f56885c0",
+            "similarity": 93.75,
+            "duplicate_type": "NEAR_DUPLICATE",
+            "hamming_distance": 4
+          }
+        ],
+        "cluster_size": 10,
+        "indicator": "Potential duplicate flooding indicator"
+      }
+    ],
+    "total_duplicate_samples": 9,
+    "exact_duplicate_count": 0,
+    "near_duplicate_count": 9,
+    "flooding_clusters_count": 1
+  },
+  "ood_analysis": {
+    "total_evaluated": 10,
+    "anomalies_detected": 1,
+    "contamination_rate": 0.1,
+    "samples": [
+      {
+        "sample_id": "SMPL-00001",
+        "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_01.jpg",
+        "ood_score": 0.2837,
+        "distance_to_centroid": 0.0006,
+        "isolation_score": 0.0714,
+        "severity": "LOW",
+        "is_outlier": false,
+        "limitation_note": "Sample features deviate significantly from the baseline distribution. This indicates atypical visual features or potential out-of-distribution domain shift, but does not definitively prove malicious poisoning or corruption."
+      },
+      {
+        "sample_id": "SMPL-00002",
+        "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_01_copy.jpg",
+        "ood_score": 0.2837,
+        "distance_to_centroid": 0.0006,
+        "isolation_score": 0.0714,
+        "severity": "LOW",
+        "is_outlier": false,
+        "limitation_note": "Sample features deviate significantly from the baseline distribution. This indicates atypical visual features or potential out-of-distribution domain shift, but does not definitively prove malicious poisoning or corruption."
+      },
+      {
+        "sample_id": "SMPL-00003",
+        "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_02.jpg",
+        "ood_score": 0.09,
+        "distance_to_centroid": 0.0002,
+        "isolation_score": 0.0878,
+        "severity": "LOW",
+        "is_outlier": false,
+        "limitation_note": "Sample features deviate significantly from the baseline distribution. This indicates atypical visual features or potential out-of-distribution domain shift, but does not definitively prove malicious poisoning or corruption."
+      },
+      {
+        "sample_id": "SMPL-00004",
+        "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_02_near_dup.jpg",
+        "ood_score": 0.4862,
+        "distance_to_centroid": 0.0002,
+        "isolation_score": 0.0041,
+        "severity": "MEDIUM",
+        "is_outlier": false,
+        "limitation_note": "Sample features deviate significantly from the baseline distribution. This indicates atypical visual features or potential out-of-distribution domain shift, but does not definitively prove malicious poisoning or corruption."
+      },
+      {
+        "sample_id": "SMPL-00005",
+        "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_03.jpg",
+        "ood_score": 0.0735,
+        "distance_to_centroid": 0.0001,
+        "isolation_score": 0.077,
+        "severity": "LOW",
+        "is_outlier": false,
+        "limitation_note": "Sample features deviate significantly from the baseline distribution. This indicates atypical visual features or potential out-of-distribution domain shift, but does not definitively prove malicious poisoning or corruption."
+      },
+      {
+        "sample_id": "SMPL-00006",
+        "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_04.jpg",
+        "ood_score": 0.092,
+        "distance_to_centroid": 0.0,
+        "isolation_score": 0.0686,
+        "severity": "LOW",
+        "is_outlier": false,
+        "limitation_note": "Sample features deviate significantly from the baseline distribution. This indicates atypical visual features or potential out-of-distribution domain shift, but does not definitively prove malicious poisoning or corruption."
+      },
+      {
+        "sample_id": "SMPL-00007",
+        "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_05.jpg",
+        "ood_score": 0.06,
+        "distance_to_centroid": 0.0001,
+        "isolation_score": 0.0824,
+        "severity": "LOW",
+        "is_outlier": false,
+        "limitation_note": "Sample features deviate significantly from the baseline distribution. This indicates atypical visual features or potential out-of-distribution domain shift, but does not definitively prove malicious poisoning or corruption."
+      },
+      {
+        "sample_id": "SMPL-00008",
+        "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_06.jpg",
+        "ood_score": 0.2022,
+        "distance_to_centroid": 0.0003,
+        "isolation_score": 0.069,
+        "severity": "LOW",
+        "is_outlier": false,
+        "limitation_note": "Sample features deviate significantly from the baseline distribution. This indicates atypical visual features or potential out-of-distribution domain shift, but does not definitively prove malicious poisoning or corruption."
+      },
+      {
+        "sample_id": "SMPL-00009",
+        "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_07.jpg",
+        "ood_score": 0.4395,
+        "distance_to_centroid": 0.0006,
+        "isolation_score": 0.0451,
+        "severity": "LOW",
+        "is_outlier": false,
+        "limitation_note": "Sample features deviate significantly from the baseline distribution. This indicates atypical visual features or potential out-of-distribution domain shift, but does not definitively prove malicious poisoning or corruption."
+      },
+      {
+        "sample_id": "SMPL-00010",
+        "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_08.jpg",
+        "ood_score": 1.0,
+        "distance_to_centroid": 0.0011,
+        "isolation_score": -0.037,
+        "severity": "CRITICAL",
+        "is_outlier": true,
+        "limitation_note": "Sample features deviate significantly from the baseline distribution. This indicates atypical visual features or potential out-of-distribution domain shift, but does not definitively prove malicious poisoning or corruption."
+      }
+    ],
+    "summary_limitation": "OOD scores measure statistical feature deviation within the embedding space. Unusual lighting, camera angles, rare visual objects, or legitimate edge cases may yield elevated anomaly scores without indicating adversarial tampering."
+  },
+  "label_analysis": [],
+  "evidence_objects": [
+    {
+      "id": "EVID-DS-2026-00001",
+      "timestamp": "2026-09-10T07:56:18.377152+00:00",
+      "finding_type": "CORRUPTED_FILE_DETECTED",
+      "what_happened": "Image file 'sample_corrupted.jpg' could not be decoded or failed format verification.",
+      "why_flagged": "Integrity check failed: Corrupted or unsupported image file: UnidentifiedImageError: cannot identify image file 'C:\\\\Users\\\\LENOVO\\\\OneDrive\\\\Documents\\\\Desktop\\\\vision trust 3\\\\data\\\\demo\\\\sample_dataset\\\\images\\\\sample_corrupted.jpg'",
+      "evidence": {
+        "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_corrupted.jpg",
+        "file_size_bytes": 33,
+        "sha256": "fff60db62dd23805c0399217c484481e4b314dce0d04ccebe2596774e3441a69",
+        "format": "CORRUPTED",
+        "error_detail": "Corrupted or unsupported image file: UnidentifiedImageError: cannot identify image file 'C:\\\\Users\\\\LENOVO\\\\OneDrive\\\\Documents\\\\Desktop\\\\vision trust 3\\\\data\\\\demo\\\\sample_dataset\\\\images\\\\sample_corrupted.jpg'"
+      },
+      "severity": "HIGH",
+      "confidence": 1.0,
+      "affected_asset": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_corrupted.jpg",
+      "recommended_action": "Quarantine or re-ingest corrupted image file before training pipeline ingestion.",
+      "limitations": "File corruption may result from incomplete network transfers, disk sector faults, or invalid container headers rather than deliberate tampering.",
+      "disposition": "PENDING"
+    },
+    {
+      "id": "EVID-DS-2026-00002",
+      "timestamp": "2026-09-10T07:56:18.377152+00:00",
+      "finding_type": "DUPLICATE_FLOODING_CLUSTER",
+      "what_happened": "Detected duplicate cluster DUP-CLUSTER-001 comprising 10 identical or visually near-duplicate images.",
+      "why_flagged": "Potential duplicate flooding indicator: Cluster size of 10 exceeds nominal uniqueness threshold (similarity: 96.88%).",
+      "evidence": {
+        "cluster_id": "DUP-CLUSTER-001",
+        "representative_image": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_08.jpg",
+        "cluster_size": 10,
+        "indicator": "Potential duplicate flooding indicator",
+        "duplicate_samples": [
+          {
+            "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_08.jpg",
+            "sha256": "392f8a1507c0c0128a0b6a5e7f7bd92331b6601188ed4ac84e811041a2702d3b",
+            "similarity": 100.0,
+            "duplicate_type": "EXACT",
+            "hamming_distance": 0
+          },
+          {
+            "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_06.jpg",
+            "sha256": "42b3cd895764fd1f64d02c3cef5a1aa02f93df0a8807c58e7c4a33dd332e04a8",
+            "similarity": 100.0,
+            "duplicate_type": "NEAR_DUPLICATE",
+            "hamming_distance": 0
+          },
+          {
+            "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_05.jpg",
+            "sha256": "c5ec0214321cb55d4c7bd636992318f51c6202d96792af7013024354756338f0",
+            "similarity": 96.88,
+            "duplicate_type": "NEAR_DUPLICATE",
+            "hamming_distance": 2
+          },
+          {
+            "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_07.jpg",
+            "sha256": "5d3a2a2733b2565dc772bf39920385746180fca3ab8231248095407850fe4b03",
+            "similarity": 100.0,
+            "duplicate_type": "NEAR_DUPLICATE",
+            "hamming_distance": 0
+          },
+          {
+            "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_04.jpg",
+            "sha256": "514255eddbed0ce3373b1211b9ffaa0a08a4b1dadf04c5871bee305917b8b268",
+            "similarity": 96.88,
+            "duplicate_type": "NEAR_DUPLICATE",
+            "hamming_distance": 2
+          },
+          {
+            "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_03.jpg",
+            "sha256": "9db5a4fbc8ca1c26226dfc5d4c21a78827802bec0c878ec7806ef6aef6230396",
+            "similarity": 96.88,
+            "duplicate_type": "NEAR_DUPLICATE",
+            "hamming_distance": 2
+          },
+          {
+            "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_02.jpg",
+            "sha256": "044faef15ff9f3b9a75fcbf07e84177ba989df1fe3b4dc03448cd9b439dc7c70",
+            "similarity": 96.88,
+            "duplicate_type": "NEAR_DUPLICATE",
+            "hamming_distance": 2
+          },
+          {
+            "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_01.jpg",
+            "sha256": "5c686192bc1db3961e781939e0e3515b4b05b292b9abbc4936e199cb79cdbcb0",
+            "similarity": 96.88,
+            "duplicate_type": "NEAR_DUPLICATE",
+            "hamming_distance": 2
+          },
+          {
+            "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_01_copy.jpg",
+            "sha256": "5c686192bc1db3961e781939e0e3515b4b05b292b9abbc4936e199cb79cdbcb0",
+            "similarity": 96.88,
+            "duplicate_type": "NEAR_DUPLICATE",
+            "hamming_distance": 2
+          },
+          {
+            "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_02_near_dup.jpg",
+            "sha256": "0ece1e2e2502f65c083a1f74380361d91f7f938f8331bdde5df39c05f56885c0",
+            "similarity": 93.75,
+            "duplicate_type": "NEAR_DUPLICATE",
+            "hamming_distance": 4
+          }
+        ]
+      },
+      "severity": "HIGH",
+      "confidence": 0.9688,
+      "affected_asset": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_08.jpg",
+      "recommended_action": "Review and deduplicate training batch to eliminate sample over-representation and prevent model decision boundary distortion.",
+      "limitations": "Sequential burst captures, dashcam sequences, or fixed-camera feeds may generate high visual similarity clusters legitimately without malicious intent.",
+      "disposition": "PENDING"
+    },
+    {
+      "id": "EVID-DS-2026-00003",
+      "timestamp": "2026-09-10T07:56:18.377152+00:00",
+      "finding_type": "OUT_OF_DISTRIBUTION_ANOMALY",
+      "what_happened": "Sample visual features deviate markedly from the dataset distribution centroid (OOD anomaly score: 1.0).",
+      "why_flagged": "Statistical outlier flagged by Isolation Forest decision function (-0.037) and centroid cosine distance (0.0011).",
+      "evidence": {
+        "sample_id": "SMPL-00010",
+        "file_path": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_08.jpg",
+        "ood_score": 1.0,
+        "isolation_score": -0.037,
+        "distance_to_centroid": 0.0011,
+        "contamination_rate": 0.1
+      },
+      "severity": "CRITICAL",
+      "confidence": 1.0,
+      "affected_asset": "C:\\Users\\LENOVO\\OneDrive\\Documents\\Desktop\\vision trust 3\\data\\demo\\sample_dataset\\images\\sample_08.jpg",
+      "recommended_action": "Inspect sample for anomalous scene lighting, domain shift, synthetic artifacts, or potential backdoor trigger patches.",
+      "limitations": "Sample features deviate significantly from the baseline distribution. This indicates atypical visual features or potential out-of-distribution domain shift, but does not definitively prove malicious poisoning or corruption.",
+      "disposition": "PENDING"
+    }
+  ]
+}
